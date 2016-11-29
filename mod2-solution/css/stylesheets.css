@@ -1,0 +1,44 @@
+/*****Base style*****/
+h1 {
+	text-align: center;
+}
+div {
+	padding: 20px;
+}
+.d1 {
+	background-color: #DEB887;
+	width: 33%;
+}
+.d2 {
+	background-color: #A52A2A;
+}
+.d3 {
+	background-color: green;
+}
+/*******desktop version*******/
+@media (min-width: 992px) {
+	div{
+		width: 33%;
+		float: left;
+	}
+
+}
+/*******tablet version********/
+@media (min-width: 768px) and (max-width: 991px) {
+.d1 {
+	width: 50%;
+	float: left;
+}
+.d2 {
+	width: 50%;
+	float: left;
+}
+.d3 {
+	width: 50%;
+	float: left;
+}
+}
+/*******mobile version********/
+@media (max-width: 767px) {
+
+}
